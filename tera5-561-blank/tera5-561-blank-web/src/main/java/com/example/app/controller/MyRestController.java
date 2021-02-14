@@ -21,7 +21,11 @@ public class MyRestController {
             .getLogger(MyRestController.class);
 
     /**
-     * Simply selects the home view to render by returning its name.
+     * RESTコントローラその１。
+     *
+     * @param locale
+     * @param model
+     * @return
      */
     @RequestMapping(value = "/rest1", method = {RequestMethod.GET, RequestMethod.POST})
     public String home(Locale locale, Model model) {
