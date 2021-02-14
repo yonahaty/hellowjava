@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Handles requests for the application home page.
+ * RESTコントローラ用のサンプル。
  */
 @RestController
 public class MyRestController {
