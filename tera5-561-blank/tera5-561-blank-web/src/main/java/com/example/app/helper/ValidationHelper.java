@@ -4,8 +4,9 @@
 package com.example.app.helper;
 
 /**
- * @author start
+ * 単項目チェックヘルパー。
  *
+ * @author start
  */
 interface ValidationHelper {
 

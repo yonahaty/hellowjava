@@ -14,6 +14,9 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class ValidationHelperImpl implements ValidationHelper {
 
+	/**
+	 * チェックを実行する。
+	 */
 	@Override
 	public boolean check(Class clazz) {
 
@@ -21,7 +24,6 @@ public class ValidationHelperImpl implements ValidationHelper {
 		for(Field field : fields) {
 			// TODO
 		}
-
 		return true;
 	}
 
