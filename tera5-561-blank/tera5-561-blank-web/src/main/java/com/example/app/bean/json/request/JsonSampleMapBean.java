@@ -1,6 +1,6 @@
 package com.example.app.bean.json.request;
 
-import java.util.List;
+import java.util.Map;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,11 +10,11 @@ import lombok.Setter;
  *
  * @author start
  */
-public class JsonSampleListBean {
+public class JsonSampleMapBean {
 
-	/** リスト */
+	/** マップ */
 	@Getter
 	@Setter
-	private List<JsonSampleBean> sampleList;
+	private Map<String, JsonSampleBean> sampleMap;
 
 }
