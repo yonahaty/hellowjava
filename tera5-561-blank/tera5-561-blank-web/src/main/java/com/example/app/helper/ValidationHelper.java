@@ -8,7 +8,7 @@ package com.example.app.helper;
  *
  * @author start
  */
-interface ValidationHelper {
+public interface ValidationHelper {
 
 	boolean check(Class clazz);
 }
